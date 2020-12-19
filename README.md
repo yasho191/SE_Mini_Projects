@@ -7,13 +7,12 @@
 
 Phone Directory system is a small application developed using C++. In older days we stored all our important contact details in books and papers. Here we propose a new system, using this application we can store all the details in central repository. In manual method if we forget information book then it very difficult to get the contact details. In manual mode it also becomes very difficult to update a particular record, also this system of storing numbers is inefficient. Some of the disadvantages of this manual system are:
 
-•	Takes Up a Lot of Space. The biggest downfall to manual document filing is the amount of place it takes.
-•	Prone to Damage and Being Misplaced. Manual document filing means you are placing faith in the people handling the files. 
-•	Hard to Make Changes. 
-•	Access Time.
-•	Lack of Security. 
-
-•	Higher Cost
+-	Takes Up a Lot of Space. The biggest downfall to manual document filing is the amount of place it takes.
+-	Prone to Damage and Being Misplaced. Manual document filing means you are placing faith in the people handling the files. 
+-	Hard to Make Changes. 
+-	Access Time.
+-	Lack of Security. 
+-	Higher Cost
  
 By using our application, we can see our contacts whenever we want, here we will have options like search record by name or using their number, insert new record and so on. In this project we can save our contacts, their telephone number, we can see all of these at a time. This system is developed keeping in mind the general needs of the user while using the phone directory book. In order to keep Phone Directory updated, the user will have the authority to add and delete as well as modify the existing records within the phone book directory.
 
@@ -22,20 +21,20 @@ By using our application, we can see our contacts whenever we want, here we will
 We have to implement a phone directory using C++ programming language. To accomplish this task, we will have to use some kind of database which will store all the records and will maintain the records as well. As our phone directory has limited fields using a File to store this data will be a good choice. SQL database can also be used for this task but as the scale of the project is small, we do not need a proper database to store our information.
 
 To access, modify, insert record in our directory we will be making use of a Doubly Linked List with an internal node structure with 3 fields:
-•	Name
-•	Phone Number 
-•	Telephone Number
+-	Name
+-	Phone Number 
+-	Telephone Number
 A DLL makes all the operations of the directory very easy and efficient. As DLL do not require continuous memory locations to maintain the data our application can easily handle a large amount of data without any problem as well.
 
 
 ### 2.1	SCOPE
 
-•	Maintaining Phone Records
-•	Updating Phone Records
-•	Checking Validity of a Record
-•	Inserting New Records
-•	Deleting Records
-•	Providing a Brief Summary of the Directory
+-	Maintaining Phone Records
+-	Updating Phone Records
+-	Checking Validity of a Record
+-	Inserting New Records
+-	Deleting Records
+-	Providing a Brief Summary of the Directory
 
 
 ### 2.2	REQUIREMENT ANALYSIS
@@ -48,15 +47,15 @@ As our project is a phone directory it is possible that the array data structure
 
 SOFTWARE:
 
-•	Windows OS / Linux
-•	DEV C++ IDE
-•	C++ Compiler
-              
+-	Windows OS / Linux
+-	DEV C++ IDE
+-	C++ Compiler
+             
 HARDWARE:
 
-•	Laptop / PC
-•	GB Ram
-•	1 GB Storage
+-	Laptop / PC
+-	GB Ram
+-	1 GB Storage
 
 
 ### 2.4	LIBRARIES / PACKAGES USED:
@@ -118,8 +117,8 @@ I have decided to use Back Tracking to solve this problem as it is far more effi
 
 The Project will consist of 2 main modules:
 
-•	Player Flow
-•	Solution
+-	Player Flow
+-	Solution
 
 The final Output will be a Terminal Based UI where the user will input the row column and the Number they want to input in that position.
 
