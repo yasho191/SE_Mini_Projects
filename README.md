@@ -140,7 +140,7 @@ For this Problem I have Created 3 Modules:
 2.	Player: Contains the Player Game Flow 
 3.	Solution: Contains the Puzzle Solver
 
-Player Module:
+#### Player Module:
 
 1.	Step 1:  Start
 
@@ -177,7 +177,7 @@ Player Module:
 
 
 
-Solution Module (Back Tracking Algorithm):
+#### Solution Module (Back Tracking Algorithm):
 
 1.	Start
 
